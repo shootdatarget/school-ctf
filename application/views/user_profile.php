@@ -49,6 +49,8 @@ if(!$user_id){
 
     </div>
   </div>
+<a href="<?php echo base_url('quest/landing');?>" >  <button type="button" class="btn-primary">Start Question</button></a>
+  
 <a href="<?php echo base_url('user/user_logout');?>" >  <button type="button" class="btn-primary">Logout</button></a>
 </div>
   </body>

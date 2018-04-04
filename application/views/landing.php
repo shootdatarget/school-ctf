@@ -11,45 +11,45 @@
     <title>Simple Sidebar - Start Bootstrap Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://localhost/ctf/application/views/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="http://localhost/ctf/application/views/css/simple-sidebar.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <div id="wrapper">
-
+   <div id="wrapper">
+<!-- <div id="wrapper.toggled">-->
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="#">
-                        Start Bootstrap
+                        Welcome <?php echo $this->session->userdata('user_name'); ?>
                     </a>
                 </li>
                 <li>
-                    <a href="#">Dashboard</a>
+                    <a href="#">Q 1</a>
                 </li>
                 <li>
-                    <a href="#">Shortcuts</a>
+                    <a href="#">Q 2</a>
                 </li>
                 <li>
-                    <a href="#">Overview</a>
+                    <a href="#">Q 3</a>
                 </li>
                 <li>
-                    <a href="#">Events</a>
+                    <a href="#">Q 4</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#">Q 5</a>
                 </li>
                 <li>
-                    <a href="#">Services</a>
+                    <a href="#">Q 6</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#">Q 7</a>
                 </li>
             </ul>
         </div>
@@ -70,8 +70,8 @@
     <!-- /#wrapper -->
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="http://localhost/ctf/application/views/jquery/jquery.min.js"></script>
+    <script src="http://localhost/ctf/application/views/js/bootstrap.bundle.min.js"></script>
 
     <!-- Menu Toggle Script -->
     <script>
