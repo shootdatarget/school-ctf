@@ -18,9 +18,13 @@ $this->load->view("landing.php");
 
 }
 
-public function scoreboard(){
-	
-$this->load->view("scoreboard.php");
+public function load_quest($questionID = 0){
+
+	if($questionID==1){
+		$this->load->view("q1.php");
+	}else if($questionID==2){
+		$this->load->view("q2.php");
+	}
 
 
 }

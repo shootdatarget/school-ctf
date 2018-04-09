@@ -31,10 +31,10 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">Q 1</a>
+                    <a href="<?php echo base_url('quest/load_quest/1'); ?>"   target="_blank">Q 1</a>
                 </li>
                 <li>
-                    <a href="#">Q 2</a>
+                    <a href="<?php echo base_url('quest/load_quest/2'); ?>">Q 2</a>
                 </li>
                 <li>
                     <a href="#">Q 3</a>

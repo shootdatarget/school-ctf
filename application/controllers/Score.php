@@ -15,8 +15,9 @@ public function index(){
 	
 $this->load->view("scoreboard.php");
 
-
 }
+
+
 
 
 }
